@@ -7,7 +7,7 @@ module.exports.run = async (client, message, args) => {
  
 if(!name) return message.channel.send("Please enter your hypixel name")
 
- var url = `https://api.hypixel.net/player?key=575e4123-788a-4f4c-bcfb-c71bbc95c933&name=${name}`;
+ var url = `https://api.hypixel.net/player?key=your-hypixel-key-here&name=${name}`;
 
 console.log(url);
 
